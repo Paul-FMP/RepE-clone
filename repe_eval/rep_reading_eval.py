@@ -3,7 +3,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 import numpy as np
 from itertools import islice
-from repe import repe_pipeline_registry
+from repe.pipelines import repe_pipeline_registry
 repe_pipeline_registry()
 
 from tasks import task_dataset

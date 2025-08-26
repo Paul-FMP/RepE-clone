@@ -2,7 +2,7 @@ from typing import List, Union, Optional
 from transformers import Pipeline
 import torch
 import numpy as np
-from .rep_readers import DIRECTION_FINDERS, RepReader
+from repe.rep_readers import DIRECTION_FINDERS, RepReader
 
 class RepReadingPipeline(Pipeline):
 

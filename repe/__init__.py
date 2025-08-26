@@ -1,13 +1,14 @@
 import warnings
 warnings.filterwarnings("ignore")
 
-
-from .pipelines import repe_pipeline_registry
+from repe.pipelines import repe_pipeline_registry
 
 # RepReading
-from .rep_readers import *
-from .rep_reading_pipeline import *
+from repe.rep_readers import *
+from repe.rep_reading_pipeline import *
 
 # RepControl
-from .rep_control_pipeline import *
-from .rep_control_reading_vec import *
+from repe.rep_control_pipeline import *
+from repe.rep_control_reading_vec import *
+
+repe_pipeline_registry()
